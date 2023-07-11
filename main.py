@@ -8,7 +8,7 @@ if height >= 120:
     ticketPrice = 12
   elif age >= 12:
     ticketPrice = 10
-  elif age >= 8:
+  else:
     ticketPrice = 8
   
   if photo == "Yes":
