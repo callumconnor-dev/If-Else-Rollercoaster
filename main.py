@@ -4,7 +4,9 @@ height = int(input("How tall are you, in cm? "))
 if height >= 120:
   age = int(input(f"You are {height}cm tall; how old are you? "))
   photo = input(f"Would you like a £3 photo ticket? Yes or No ")
-  if age >= 18: 
+  if age >= 45 and age <= 55:
+    ticketPrice = 0
+  elif age >= 18: 
     ticketPrice = 12
   elif age >= 12:
     ticketPrice = 10
